@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CraftingPieces>
     <!-- Excalibur's Blade -->
-    <CraftingPiece id="excalibur_blade" name="{=*}Excalibur Blade" tier="5" piece_type="Blade" mesh="empire_noble_blade_4" culture="Culture.empire" length="95.8" weight="1" is_default="true">
+    <CraftingPiece id="excalibur_blade" name="{=*}Excalibur Blade" tier="5" piece_type="Blade" mesh="empire_noble_blade_4" culture="Culture.empire" length="95.8" weight="0.7" is_default="true">
         <PieceUsages unavailable_usages="" />
         <BuildData bottom_diff="-0.4" />
         <BladeData sharpness="5" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="empire_noble_blade_4_scabbard_4">
@@ -18,7 +18,7 @@
     <!-- Excalibur's Guard -->
     <CraftingPiece id="excalibur_guard" name="{=*}Excalibur Guard" tier="5" piece_type="Guard" mesh="vlandian_noble_guard_3" culture="Culture.empire" length="2.4" weight="0.10">
         <PieceUsages unavailable_usages="" />
-        <BuildData top_diff="1" />
+        <BuildData top_diff="0.2" />
         <StatContributions armor_bonus="7" />
         <Materials>
         <Material id="Iron5" count="1" />
