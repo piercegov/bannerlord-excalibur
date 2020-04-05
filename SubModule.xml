@@ -1,0 +1,38 @@
+<Module>
+    <Name value="Excalibur"/>
+    <Id value="Excalibur"/>
+    <Version value="v1.0.0"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <Official value="false" />
+    <DependedModules>
+        <DependedModule Id="Native"/>
+        <DependedModule Id="SandBoxCore"/>
+        <DependedModule Id="Sandbox"/>
+        <DependedModule Id="CustomBattle"/>
+        <DependedModule Id="StoryMode" />
+    </DependedModules>
+    <SubModules>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="CraftingPieces" path="new_pieces"/>
+            <IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="CraftingTemplates" path="new_templates"/>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="excalibur"/>
+            <IncludedGameTypes>
+                <Gametype value = "Campaign"/>
+                <Gametype value = "CampaignStoryMode"/>
+                <GameType value = "CustomGame"/>
+		    </IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+</Module>

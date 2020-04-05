@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+    <!-- Excalibur's Blade -->
+    <CraftingPiece id="excalibur_blade" name="{=*}Excalibur Blade" tier="5" piece_type="Blade" mesh="empire_noble_blade_4" culture="Culture.empire" length="115" weight="1" is_default="true">
+        <PieceUsages unavailable_usages="" />
+        <BuildData bottom_diff="-0.4" />
+        <BladeData sharpness="5" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="empire_noble_blade_4_scabbard_4">
+        <Thrust damage_type="Pierce" damage_factor="4" />
+        <Swing damage_type="Cut" damage_factor="5" />
+        </BladeData>
+        <Flags>
+        <Flag name="Civilian" type="ItemFlags" />
+        </Flags>
+        <Materials>
+        <Material id="Iron2" count="3" />
+        </Materials>
+    </CraftingPiece>
+    <!-- Excalibur's Guard -->
+    <CraftingPiece id="excalibur_guard" name="{=*}Excalibur Guard" tier="5" piece_type="Guard" mesh="empire_noble_guard_3" culture="Culture.empire" length="5.5" weight="0.10">
+        <PieceUsages unavailable_usages="" />
+        <BuildData top_diff="1" />
+        <StatContributions armor_bonus="7" />
+        <Materials>
+        <Material id="Iron5" count="1" />
+        </Materials>
+    </CraftingPiece>
+  <!-- Excalibur's Grip -->
+    <CraftingPiece id="excalibur_grip" name="{=*}Excalibur Grip" tier="5" piece_type="Handle" mesh="empire_noble_grip_4" culture="Culture.sturgia" length="25" weight="0.10">
+        <PieceUsages unavailable_usages="" />
+        <BuildData move_diff="0" top_diff="0" bottom_diff="0.5" />
+        <Materials>
+        <Material id="Iron5" count="2" />
+        </Materials>
+    </CraftingPiece>
+    <!-- Excalibur's Pommel -->
+    <CraftingPiece id="excalibur_pommel" name="{=*}Excalibur Pommel" tier="5" piece_type="Pommel" mesh="empire_noble_pommel_1" culture="Culture.empire" length="7" weight="0.2" appearance="0.9">
+        <PieceUsages unavailable_usages="" />
+        <Materials>
+        <Material id="Iron5" count="1" />
+        </Materials>
+    </CraftingPiece>
+</CraftingPieces>
