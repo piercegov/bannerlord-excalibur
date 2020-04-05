@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <CraftedItem id="excalibur_sword"
+               name="{=*}Excalibur"
+               crafting_template="SpecialSword"
+               value="50000"
+               is_merchandise="false">
+    <Pieces>
+      <Piece id="excalibur_blade"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="excalibur_guard"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="excalibur_grip"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="excalibur_pommel"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+</Items>
