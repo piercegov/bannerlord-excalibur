@@ -3,15 +3,15 @@
     <CraftedItem id="excalibur_sword"
                name="{=*}Excalibur"
                crafting_template="SpecialSword"
-               value="50000"
+               value="100000"
                is_merchandise="false">
     <Pieces>
       <Piece id="excalibur_blade"
              Type="Blade"
-             scale_factor="100" />
+             scale_factor="200" />
       <Piece id="excalibur_guard"
              Type="Guard"
-             scale_factor="100" />
+             scale_factor="200" />
       <Piece id="excalibur_grip"
              Type="Handle"
              scale_factor="100" />
